@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/DimitriMikadze/create-react-library#readme",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "styled-components": "^3.0.2"
+  },
   "devDependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
