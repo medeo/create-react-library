@@ -1,12 +1,12 @@
 import React from 'react';
-import udiliaLogo from './udilia-logo.svg';
-import './Example.css';
+import styled from 'styled-components';
 
-const Example = () => (
-  <div className="Example">
-    <img src={udiliaLogo} alt="React logo" width="62" />
-    <h1 className="Example-text">Create React Library</h1>
+const Example = ({className}) => (
+  <div className={className}>
+    hello world
   </div>
 );
 
-export default Example;
+export default styled(Example)`
+  color: blue;
+`;
