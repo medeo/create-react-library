@@ -54,11 +54,7 @@ module.exports = {
   publicUrl: getPublicUrl(resolveApp('package.json')),
   servedPath: getServedPath(resolveApp('package.json')),
 
-  // CRL: New paths for demo build
-  appDemoIndexJs: resolveApp('src/demo/index.js'),
-  appDemoSrc: resolveApp('src/demo'),
-
   // CRL: New paths for library
-  appLibIndexJs: resolveApp('src/lib/index.js'),
-  appLibSrc: resolveApp('src/lib'),
+  appLibIndexJs: resolveApp('lib/index.js'),
+  appLibSrc: resolveApp('lib'),
 };
